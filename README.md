@@ -3,41 +3,6 @@
 ## Aim: 
 To perform a study on Client Server Chat Applications.
 
-## Algorithm:
-# Server:
-1. Create a server socket and bind it to port.
-   
-2. Listen for new connection and when a connection arrives, accept it.
-   
-3. Send server's date and time to the client.
-   
-4. Read client's IP address sent by the client.
-   
-5. Display the client details.
-   
-6. Repeat steps 2-5 until the server is terminated.
-   
-7. Close all streams.
-   
-8. Close the server socket.
-   
-9. Stop.
-    
-# Client:
-1. Create a client socket and connect it to the server's port number.
-   
-2. Retrieve its own IP address using built-in function.
-
-3. Send its address to the server.
-   
-4. Display the date & time sent by the server.
-   
-5. Close the input and output streams.
-   
-6. Close the client socket.
-   
-7. Stop.
-
 ## Introduction:
 Client-server chat applications are a category of networked software that enables real-time communication between users over a network. This study explores the key components, architecture, and considerations in the development of client-server chat applications, highlighting their significance and common implementation practices.
 Client-server chat applications are software systems that enable real-time communication between users over a network. These applications follow a client-server model, where one component (the server) manages connections and facilitates communication, while the other component (the client) interacts with the server to send and receive messages. Below are the fundamental aspects and components involved in the basics of client-server chat applications:
